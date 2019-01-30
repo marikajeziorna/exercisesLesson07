@@ -10,11 +10,11 @@ public class Zad4 {
             a = scanner.nextInt();
         }
         if( a % 3 == 0 && a % 5 == 0){
-            System.out.println("Value 'a': " + a + ", \n text: FizzBuzz");
+            System.out.println(a + " FizzBuzz");
         }else if(a % 3 == 0){
-            System.out.println("Value 'a': " + a + ", \n text: Fizz");
+            System.out.println(a + " Fizz");
         }else if (a % 5 == 0){
-            System.out.println("Value 'a': " + a + ", \n text: Buzz");
+            System.out.println(a + " Buzz");
         }
     }
 }
